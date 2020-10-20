@@ -1,6 +1,6 @@
 {
   "name": "@mxjoly/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "publishConfig": {
     "access": "public"
   },
@@ -11,43 +11,40 @@
   "repository": "git+https://github.com/mxjoly/eslint-config.git",
   "bugs": "https://github.com/mxjoly/eslint-config/issues",
   "homepage": "https://github.com/mxjoly/eslint-config#readme",
-  "keywords": [
-    "eslint",
-    "config"
-  ],
+  "keywords": ["eslint", "config"],
   "scripts": {
     "deps:check": "ncu",
     "deps:upgrade": "ncu -i"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
     "babel-eslint": "^10.1.0",
     "confusing-browser-globals": "^1.0.9",
     "eslint": "^7.11.0",
-    "eslint-config-prettier": "^6.12.0",
+    "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.1.2",
-    "eslint-plugin-unicorn": "^22.0.0"
+    "eslint-plugin-unicorn": "^23.0.0"
   },
   "devDependencies": {
     "@mxjoly/prettier-config": "^1.0.0",
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
     "confusing-browser-globals": "^1.0.9",
     "eslint": "^7.11.0",
-    "eslint-config-prettier": "^6.12.0",
+    "eslint-config-prettier": "^6.13.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.1.2",
-    "eslint-plugin-unicorn": "^22.0.0",
+    "eslint-plugin-unicorn": "^23.0.0",
     "npm-check-updates": "^9.1.0"
   }
 }
