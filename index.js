@@ -31,7 +31,7 @@ module.exports = {
   rules: {
     'arrow-parens': [2, 'always'],
     'brace-style': [2, '1tbs'],
-    'block-scoped-var': 2,
+    'block-scoped-var': 0,
     'dot-location': [1, 'property'],
     'dot-notation': 2,
     'eol-last': 2,
