@@ -112,6 +112,7 @@ module.exports = {
     'unicorn/import-index': 2,
     'unicorn/prevent-abbreviations': 0,
     'unicorn/no-abusive-eslint-disable': 2,
+    'unicorn/consistent-function-scoping': 0,
     'unicorn/no-instanceof-array': 2,
     'unicorn/no-console-spaces': 2,
     'unicorn/no-array-callback-reference': 2,
@@ -125,8 +126,9 @@ module.exports = {
     'unicorn/no-zero-fractions': 2,
     'unicorn/number-literal-case': 2,
     'unicorn/prefer-add-event-listener': 2,
-    'unicorn/consistent-function-scoping': 0,
+    'unicorn/prefer-number-properties': 0,
     'unicorn/prefer-spread': 0,
+    'unicorn/no-process-exit': 0,
     'unicorn/throw-new-error': 2,
 
     // Prettier plugin
