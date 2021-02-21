@@ -26,7 +26,6 @@ module.exports = {
       extends: [
         'plugin:import/typescript',
         'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
       ],
       rules: {
         '@typescript-eslint/array-type': [2, { default: 'array-simple' }],
