@@ -25,7 +25,7 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'prettier',
-    'prettier/unicorn',
+    'unicorn',
   ],
   plugins: ['import', 'unicorn', 'jest', 'prettier'],
   rules: {
