@@ -93,11 +93,14 @@ module.exports = {
     'import/no-named-as-default-member': 0,
     'import/no-named-as-default': 0,
 
-    // Unicors plugins specific rules
+    // Unicorn plugins specific rules
     'unicorn/error-message': 2,
     'unicorn/escape-case': 2,
     'unicorn/expiring-todo-comments': 2,
     'unicorn/explicit-length-check': 2,
+    'unicorn/prefer-export-from': 0,
+    'unicorn/prefer-module': 0,
+    'unicorn/prefer-node-protocol': 0,
     'unicorn/filename-case': [
       'error',
       {
